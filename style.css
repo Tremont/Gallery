@@ -1,0 +1,26 @@
+body { padding-top: 70px;
+  font-family: 'Lobster', cursive;
+}
+
+.jumbotron { color: #8ee6be;
+        background-color: #8ea6e6;
+}
+
+.navbar-inverse { background: #8ee6be;
+}
+
+.bullhorn {
+  padding-right: 20px;
+}
+
+img {
+  width: 350px;
+  height: 233px;
+}
+
+footer {
+  background-color: #8ee6be;
+  width: 100%;
+  text-align: center;
+  
+}
