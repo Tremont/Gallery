@@ -1,9 +1,16 @@
 body { padding-top: 70px;
-  font-family: 'Lobster', cursive;
+       font-family: 'Lobster', cursive;
+       color: #8ee6be;
+       background-attachment: fixed;
+       background-image: url('pics/fdl.png');
+
 }
 
+
+
 .jumbotron { color: #8ee6be;
-        background-color: #8ea6e6;
+            background-color: #8ea6e6;
+            box-shadow: 6px 5px 5px 5px #8ee6be; ;
 }
 
 .navbar-inverse { background: #8ee6be;
@@ -22,5 +29,15 @@ footer {
   background-color: #8ee6be;
   width: 100%;
   text-align: center;
-  
+
+}
+
+.navtext {
+  color: #8ee6be;
+}
+a:hover img {
+  opacity: 0.1;
+}
+#lightbox {
+  overflow: visible;
 }
