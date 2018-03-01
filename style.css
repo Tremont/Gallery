@@ -2,7 +2,7 @@ body { padding-top: 70px;
        font-family: 'Lobster', cursive;
        color: #8ee6be;
        background-attachment: fixed;
-       background-image: url('pics/fdl.png');
+       background-image: url('pics/fdl_copy2.png');
 
 }
 
@@ -10,7 +10,7 @@ body { padding-top: 70px;
 
 .jumbotron { color: #8ee6be;
             background-color: #8ea6e6;
-            box-shadow: 6px 5px 5px 5px #8ee6be; ;
+            box-shadow: 6px 5px 5px 5px #8ee6bb; ;
 }
 
 .navbar-inverse { background: #8ee6be;
@@ -35,9 +35,6 @@ footer {
 .navtext {
   color: #8ee6be;
 }
-a:hover img {
-  opacity: 0.1;
-}
-#lightbox {
-  overflow: visible;
+a:hover {
+  background-color: brown;
 }
