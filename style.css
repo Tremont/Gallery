@@ -5,8 +5,24 @@ body { padding-top: 70px;
        background-image: url('pics/fdl_copy2.png');
 
 }
+ {
+
+}
+.quotes{
+
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: row;
+  margin-right: 100em;
 
 
+  background-color:;
+}
+
+.quotes2 {
+  margin-top: 5em;
+  border: ;
+}
 
 .jumbotron { color: #8ee6be;
             background-color: #8ea6e6;
@@ -35,10 +51,17 @@ footer {
 .navtext {
   color: #8ee6be;
 }
-a:hover {
-  background-color: brown;
+img:hover {
+
+  opacity: 0.5;
 }
 
 #lightbox {
   overflow: visible;
+}
+
+div.text {
+  
+  color:black;
+  font-size: 20px;
 }
