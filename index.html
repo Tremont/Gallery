@@ -16,14 +16,18 @@
 
 
 	<nav class="navbar navbar-inverse navbar-fixed-top">
+
+
    <div class="container">
      <div class="navbar-header">
-<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-nav-demo" aria-expanded="false">
+<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbarNav" aria-expanded="false" aria-label="toggle navigation">
         <span class="sr-only">Toggle navigation</span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
+
       </button>
+
 
 
 		</div>
@@ -31,25 +35,36 @@
 
 
 
-      <div class="collapse navbar-collapse" id="bs-nas-demo">
+      <div class="collapse navbar-collapse" id="navbarNav">
 				<ul class="nav navbar-nav">
            <a href="#" class="navbar-brand">Louisville</a>
 
 			 </ul>
 
       <ul class="nav navbar-nav navbar-right">
-   	    <li><a href="#">Sign Up</a></li>
-        <li><a href="#">Login</a></li>
+
+					<li class="contact" class="nav-item"><a href="#">Sign Up</a></li>
+
+
+        <li><a class="nav-link" href="#">Login</a></li>
 				<li><a href="#">About</a></li>
 				<li><a href="#">Contact Us</a></li>
       </ul>
     </div>
 </nav>
 
+	<form class="contactForm" action="#" method="post">
+		<input placeholder="first name" type="text" required />
+    <input placeholder="last name" type="text" required />
+    <input placeholder="email" type="email" required />
+	</form>
+
 
 
 
 	<div class="container">
+
+
 	  <div class="jumbotron jumbo-shadow">
 
 	    <h1> <span class="glyphicon glyphicon-bullhorn bullhorn" class=" font-heading" aria-hidden="true"></span>Louisville Landmarks</h1>
@@ -66,8 +81,10 @@
 
 
 
-
         <div class="col-lg-4 col-sm-6">
+
+
+
           	<div class="thumbnail">
                <a	href="pics/belle.jpg" data-lightbox="belle"/><img src="pics/belle.jpg"/></a>
 						</div>
@@ -129,6 +146,7 @@
 		  </div>
 
   </div>
+	<div class="text">
 	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec id laoreet turpis. Nulla facilisi. Pellentesque ligula lectus, consequat sed felis a, placerat molestie lacus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nullam elementum, ipsum at semper vehicula, tortor mauris dictum mi, eget lacinia dolor eros molestie metus. Vivamus eu augue finibus, lobortis quam eget, dictum est.</p>
 
 	 <p>Ut et eleifend dui. Fusce metus nulla, tincidunt vitae odio eget, scelerisque placerat lorem. In porta tortor sit amet purus porta ullamcorper. Donec molestie dui id nunc imperdiet, et fermentum mi bibendum. Vestibulum blandit elit id erat suscipit, eget sagittis lectus imperdiet. Praesent dignissim, ligula vel scelerisque venenatis, odio nibh fermentum erat, et imperdiet mi massa ut libero. Donec ac fringilla urna. Aenean sollicitudin dui vel dictum laoreet. Ut elementum vestibulum ligula id malesuada.</p>
@@ -140,6 +158,7 @@
 	<p>Mauris iaculis laoreet ex, et imperdiet felis rhoncus eget. Proin id mi sed augue efficitur vulputate. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris ornare nec dui ut rhoncus. Praesent tristique eleifend mi sit amet euismod. Fusce vel ex eget diam consequat tristique. Ut maximus lobortis nisl, quis feugiat mauris gravida ac. Mauris sit amet mattis lectus. Pellentesque vestibulum dolor eu condimentum molestie. Etiam quis augue ligula. Cras sagittis tortor ac enim bibendum aliquam. Quisque pulvinar metus in felis dapibus, sit amet pulvinar leo fermentum.</p>
 
 	<p>Donec pharetra turpis sed dui aliquam, nec fermentum turpis mollis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Ut molestie posuere efficitur. Aliquam erat volutpat. Aliquam condimentum dapibus elementum. Nunc posuere elit ut lorem feugiat, vel mollis nisl aliquam. Phasellus eget nisi et magna laoreet aliquet at quis lectus. Nullam feugiat placerat quam id scelerisque.</p>
+</div>
 </div>
 
 
@@ -164,10 +183,13 @@
   src="https://code.jquery.com/jquery-3.2.1.js"
   integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
   crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="image.js">
+
+</script>
 
 
 
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 <script type="text/javascript" src="lightbox.js"></script>
 </body>
 </html>
