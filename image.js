@@ -14,14 +14,14 @@
 // 	alert("navbar-right was clicked!");
 // });
 
-
+// newsletter signup
 
 $(function() {
   $('.contact').click(function() {
     $('.contactForm').fadeToggle();
   })
   $(document).mouseup(function (e) {
-    var container = $(".contactForm");
+    var container = $('.contactForm');
     if (!container.is(e.target)
         && container.has(e.target).length === 0)
         {
