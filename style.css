@@ -41,13 +41,24 @@ body { padding-top: 70px;
 img {
   width: 350px;
   height: 233px;
-
 }
 
 
 
 .navtext {
   color: #8ee6be;
+}
+
+hr {
+  display: block;
+
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+    width: 100%;
 }
 /* image hover effect */
 img:hover {
