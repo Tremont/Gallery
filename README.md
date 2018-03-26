@@ -18,7 +18,7 @@ These are the customs classes i created:
 4. contactForm, nletter { add style to popup signup to match color scheme of page}
 
 
-##Custom JavaScript Functions
+## Custom JavaScript Functions
 
 added custom javascript to add an email popup to sign up for newsletter
 
